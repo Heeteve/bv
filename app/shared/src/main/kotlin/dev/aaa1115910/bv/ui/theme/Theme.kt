@@ -32,7 +32,7 @@ import dev.aaa1115910.bv.util.Prefs
 @Composable
 fun BVTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    forceDark: Boolean = false,
+    forceDark: Boolean = true,
     content: @Composable () -> Unit
 ) {
     val context = LocalContext.current
